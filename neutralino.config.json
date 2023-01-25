@@ -1,0 +1,34 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/view/build/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "ec-neutralino-react",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 200,
+      "icon": "/view/public/logo192.png"
+    }
+  },
+  "cli": {
+    "binaryName": "ec-neutralino-react",
+    "resourcesPath": "/view/build/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/view/public/neutralino.js",
+    "binaryVersion": "4.9.0",
+    "clientVersion": "3.8.0",
+    "frontendLibrary": {
+      "patchFile": "/view/public/index.html",
+      "devUrl": "http://localhost:3000"
+    }
+  }
+}

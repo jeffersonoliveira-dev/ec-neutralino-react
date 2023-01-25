@@ -1,0 +1,18 @@
+{
+  "name": "ec-neutralino-react",
+  "version": "1.0.0",
+  "description": "React && Neutralinojs app",
+  "scripts": {
+    "react": "cd view/ && npm start",
+    "neutrino": "neu run --frontend-lib-dev --  --window-enable-inspector",
+    "start": "concurrently \"npm run neutrino\" \"npm run react\"",
+    "build": "cd view/ && npm run build && cd .. && neu build",
+    "run:build": "neu run build"
+  },
+  "author": "Jefferson Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "delay-cli": "^2.0.0"
+  }
+}
