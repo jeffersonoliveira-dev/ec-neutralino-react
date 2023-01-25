@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "React && Neutralinojs app",
   "scripts": {
-    "react": "cd view/ && npm start",
+    "react": "cd react/ && npm start",
     "neutrino": "neu run --frontend-lib-dev --  --window-enable-inspector",
     "start": "concurrently \"npm run neutrino\" \"npm run react\"",
-    "build": "cd view/ && npm run build && cd .. && neu build",
+    "build": "cd react/ && npm run build && cd .. && neu build",
     "run:build": "neu run build"
   },
   "author": "Jefferson Oliveira",
