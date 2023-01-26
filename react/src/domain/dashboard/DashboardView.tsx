@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { Div } from "./dashboard.styled";
-import { fetch } from "./dashboardMate"
+import { Div } from "./Dashboard.styled";
+import { fetch } from "./DashboardMate"
 
 
 export const Dashboard =  () => {
